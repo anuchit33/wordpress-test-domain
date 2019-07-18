@@ -11,9 +11,9 @@ services:
       - ./web/docroot:/var/www/html
     environment:
       WORDPRESS_DB_HOST: db
-      WORDPRESS_DB_USER: exampleuser
+      WORDPRESS_DB_USER: test
       WORDPRESS_DB_PASSWORD: examplepass
-      WORDPRESS_DB_NAME: exampledb
+      WORDPRESS_DB_NAME: test
 
   db:
     image: mysql:5.7
